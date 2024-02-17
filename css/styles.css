@@ -1,5 +1,10 @@
+body {
+    background-color: blanchedalmond;
+}
+
 header {
     text-align: center;
+    font-family: "Courier Prime",sans-serif;
 }
 
 header h1 {
@@ -7,20 +12,44 @@ header h1 {
 }
 
 header h2 {
-    letter-spacing: 10px;
+    letter-spacing: 2.5px;
+}
+
+header nav {
+    background-color: cornflowerblue;
+    height: 20px;
+    width: 50%;
+    margin-left: 25%;
 }
 
 header a {
-    letter-spacing: 5px;
+    letter-spacing: 1px;
     padding-left: 5%;
     padding-right: 5%;
+    text-decoration: none;
+    color: azure;
+}
+
+header a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+hr {
+    border: 2.5px dashed blue;
+}
+
+.info {
+    width: 60%;
+    padding-left: 20%;
 }
 
 #card {
     border: 5px solid black;
-    width: 65%;
+    width: 50%;
     margin: auto;
     margin-bottom: 10px;
+    background-color: lightgray;
 }
 
 #card:hover {
@@ -39,4 +68,76 @@ header a {
 
 p {
     font-family: 'Times New Roman', Times, serif;
+}
+
+.lists {
+    padding-left: 20%;
+}
+
+.lists h4 {
+    padding-left: 2.5%;
+}
+
+.lists p {
+    padding-left: 5%;
+}
+
+.lists ul {
+    padding-left: 10%;
+}
+
+.onTop {
+    width: 70%;
+    padding-left: 15%;
+}
+
+.onTop h2 {
+    text-decoration: underline;
+}
+
+.onTop h4 {
+    font-size: small;
+}
+
+.bio {
+    width: 60%;
+    padding-left: 20%;
+}
+
+.bio #here {
+    text-decoration: underline;
+}
+
+.bio em {
+    font-weight: 900;
+}
+
+#smb {
+    color: crimson;
+}
+
+#sth {
+    color: darkblue;
+}
+
+#ht {
+    color: darkgreen;
+}
+
+#ib {
+    color: blue;
+}
+
+footer {
+    padding: 2%;
+    text-align: center;
+    background-color: brown;
+    width: 80%;
+    border: 3px solid black;
+    margin-left: 10%;
+}
+
+footer h4 {
+    font-size: 20px;
+    font-weight: 900;
 }
