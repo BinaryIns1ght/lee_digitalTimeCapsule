@@ -191,12 +191,68 @@ p {
     font-size: 12.65px;
 }
 
+#card2 {
+    border: 5px solid white;
+    width: 20%;
+    margin: auto 40%;
+    margin-bottom: 1%;
+    background-color: lightgray;
+}
+
+#card2:hover {
+    border: 5px solid gray;
+}
+
+#card2 img {
+    width: 100%;
+    height: auto;
+}
+
+#card2 h5 {
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#card2 #date {
+    background-color: yellow;
+    font-size: medium;
+}
+
+#card2 #software {
+    color: green;
+    font-weight: 900;
+}
+
+.contactList h1 {
+    margin-left: 20%;
+    color: white;
+}
+
+.contactList p {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    background-color: gray;
+    border: 5px dashed ghostwhite;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.contactList a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    text-decoration: none;
+    font-weight: 900;
+}
+
 footer {
     text-align: center;
     background-color: brown;
-    width: 70%;
-    border: 3px solid black;
-    margin-left: 15%;
+    width: 60%;
+    border: 3px solid white;
+    margin-left: 20%;
 }
 
 footer h4 {
