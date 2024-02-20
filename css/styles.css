@@ -153,6 +153,7 @@ p {
     display: table;
     margin: auto 15%;
     width: 80%;
+    height: auto;
 }
 
 .event {
@@ -161,6 +162,7 @@ p {
     float: left;
     margin-right: 2%;
     width: 20%;
+    height: auto;
 }
 
 #events .event:hover {
@@ -178,7 +180,6 @@ p {
 
 .event img {
     width: 100%;
-    height: auto;
 }
 
 .event p {
@@ -189,6 +190,26 @@ p {
 .event .link {
     background-color: aliceblue;
     font-size: 12.65px;
+}
+
+.event .me {
+    width: 95%;
+}
+
+.event .typo {
+    width: 50%;
+}
+
+.event .name {
+    width: 80%;
+}
+
+.event .screw {
+    width: 50%;
+}
+
+.event .fun {
+    width: 85%;
 }
 
 #card2 {
