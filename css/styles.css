@@ -1,8 +1,15 @@
+html {
+    background-color: rgb(5, 79, 111);
+}
+
 body {
     background-color: #0A0A0A;
+    width: 95%;
+    margin: auto;
 }
 
 header {
+    padding-top: 1em;
     text-align: center;
     font-family: "Courier Prime",sans-serif;
 }
@@ -37,6 +44,7 @@ header a {
 header a:hover {
     background-color: yellow;
     color: black;
+    transition-duration: 1s;
 }
 
 hr {
@@ -53,6 +61,11 @@ hr {
     font-weight: 900;
 }
 
+.info #begin em {
+    background-color: yellow;
+    color: black;
+}
+
 #card {
     border: 5px solid white;
     width: 50%;
@@ -63,6 +76,7 @@ hr {
 
 #card:hover {
     border: 5px solid gray;
+    transition-duration: 2s;
 }
 
 #card img {
@@ -154,6 +168,12 @@ p {
     text-decoration: none;
 }
 
+#bioList a:hover {
+    background-color: skyblue;
+    color: black;
+    transition-duration: 0.7s;
+}
+
 #events {
     display: table;
     margin: auto 15%;
@@ -172,6 +192,7 @@ p {
 
 #events .event:hover {
     border: 3px solid purple;
+    transition-duration: 0.5s;
 }
 
 .event h2 {
@@ -202,7 +223,7 @@ p {
 }
 
 .event .typo {
-    width: 50%;
+    width: 40%;
 }
 
 .event .name {
@@ -215,6 +236,18 @@ p {
 
 .event .fun {
     width: 85%;
+}
+
+.event .eclipse {
+    width: 75%;
+}
+
+.event .flare {
+    width: 75%;
+}
+
+.event .view2 {
+    width: 80%;
 }
 
 #card2 {
@@ -282,6 +315,6 @@ footer {
 }
 
 footer h4 {
-    font-size: 20px;
+    font-size: 1em;
     font-weight: 900;
 }
