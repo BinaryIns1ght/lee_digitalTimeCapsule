@@ -1,9 +1,10 @@
+/* In General Styling */
 html {
     background-color: rgb(5, 79, 111);
 }
 
 body {
-    background-color: #0A0A0A;
+    background-color: #303030;
     width: 95%;
     margin: auto;
 }
@@ -50,8 +51,18 @@ header a:hover {
 }
 
 hr {
-    border: 2.5px dashed blue;
+    border: 2.5px dashed darkslategray;
 }
+
+p, .onTop h2, h4, ul { 
+    color: lightgray;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Home/Index.html Styling */
 
 .info {
     width: 60%;
@@ -68,54 +79,43 @@ hr {
     color: black;
 }
 
-#card {
-    border: 5px solid white;
-    width: 50%;
-    margin: auto 25%;
-    margin-bottom: 1%;
-    background-color: lightgray;
+#starter {
+    text-align: center;
+    text-decoration: underline;
 }
 
-#card:hover {
-    border: 5px solid black;
-    transition-duration: 2s;
-    background-color: black;
-    color: ghostwhite;
+#hobbies {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5em;
+}
+
+/* About Page Styling */
+
+#card {
+    display: block;
+    width: 30%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    background-color: slategray;
+    padding: 1em;
+    border: thick solid black;
 }
 
 #card img {
-    width: 100%;
-    height: auto;
+    width: 50%;
 }
 
-#card h5 {
-    text-align: center;
-    padding-top: 5px;
-}
-
-p, .onTop h2, h4, ul { 
-    color: lightgray;
-}
-
-p {
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.lists {
-    padding-left: 20%;
-}
-
-.lists h4 {
-    padding-left: 2.5%;
-    font-family: 'Kode Mono', sans-serif;
-}
-
-.lists p {
-    padding-left: 5%;
-}
-
-.lists ul {
-    padding-left: 10%;
+#card:hover {
+    background-color: transparent;
+    border: thick solid transparent;
+    color: ghostwhite;
+    transition-duration: 0.5s;
 }
 
 .onTop {
@@ -153,7 +153,7 @@ p {
 }
 
 #sth {
-    color: rgb(9, 9, 248);
+    color: rgb(92, 92, 231);
 }
 
 .subject {
@@ -162,161 +162,175 @@ p {
     padding-left: 10%;
 }
 
-#bioList {
-    color: lightblue;
-    padding-left: 15%;
-    list-style-type: upper-roman;
-}
-
-#bioList a {
-    color: aliceblue;
-    text-decoration: none;
-}
-
-#bioList a:hover {
-    background-color: skyblue;
-    color: black;
-    transition-duration: 0.7s;
-}
-
-#events {
-    display: table;
-    margin: auto 15%;
-    width: 80%;
-    height: auto;
-}
-
-#events .event {
-    background-color: rgb(119, 119, 119);
-    border: 3px solid darkgoldenrod;
-    text-align: center;
-    float: left;
-    margin-right: 2%;
-    width: 20%;
-    height: auto;
-    margin-top: 1%;
-}
-
-#events .event h2 {
-    text-decoration: underline;
-    font-style: oblique;
-    text-transform: uppercase;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-}
-
-.event img {
-    width: 100%;
-}
-
-.event p {
-    padding: 5%;
-}
-
-.event .link {
-    background-color: aliceblue;
-    font-size: 12.65px;
-}
-
-.event .me {
-    width: 95%;
-}
-
-.event .typo {
-    width: 40%;
-}
-
-.event .name {
-    width: 80%;
-}
-
-.event .screw {
-    width: 50%;
-}
-
-.event .fun {
-    width: 85%;
-}
-
-.event .eclipse {
-    width: 75%;
-}
-
-.event .flare {
-    width: 75%;
-}
-
-.event .view2 {
-    width: 80%;
-}
-
-#events .event:hover {
-    border: 3px solid white;
-    background-color: black;
-    color: white;
-    transition-duration: 0.5s;
-}
-
-#card2 {
-    border: 5px solid white;
-    width: 20%;
-    margin: auto 40%;
-    margin-bottom: 1%;
-    background-color: lightgray;
-}
-
-#card2 img {
-    width: 100%;
-    height: auto;
-}
-
-#card2 h5 {
-    text-align: center;
-    padding-top: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-#card2 #date {
-    background-color: gray;
-    font-size: small;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-#card2 #software {
-    color: green;
-    font-weight: 900;
-}
-
-#card2:hover {
-    border: 5px solid black;
-    background-color: black;
-    color: lightgreen;
-    transition-duration: 2s;
-}
-
-.contactList h1 {
-    margin-left: 20%;
-    color: white;
-}
-
-.contactList p {
-    text-align: center;
-    width: 40%;
+#love {
+    display: block;
+    width: 70%;
     margin: auto;
-    background-color: gray;
-    border: 5px dashed ghostwhite;
-    padding-top: 1%;
-    padding-bottom: 1%;
 }
 
-.contactList a {
+#hobby {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: space-around;
+    gap: 1em 2em;
+}
+
+#hobby article {
+    background-color: darkslategray;
+    padding: 1em;
+    width: 40%;
+}
+
+#hobby article a {
+    color: ghostwhite;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Blog Page Styling */
+
+#episode {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: space-around;
+    gap: 1em 0.5em;
+}
+
+#episode article {
+    width: 20%;
+    background-color: gray;
+    text-align: center;
+    padding: 0.75em;
+    border: thick solid darkslateblue;
+}
+
+#episode article h2 {
+    font-family: 'Jacquarda Bastarda 9', sans-serif;
+    font-weight: 900;
+    width: 50%;
+    margin: auto;
+    padding: 1%;
+}
+
+#episode article p {
+    font-family: 'Micro 5', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+#episode article a {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+    padding: 0.2em;
+}
+
+#episode article b {
+    color: green;
+}
+
+#episode article .image {
+    display: inline-block;
+    width: 80%;
+    height: 35%;
+}
+
+#episode article:hover {
+    background-color: transparent;
+    border: thick solid transparent;
+    transition-duration: 1s;
+    color: lime;
+}
+
+/* Contact Page Styling */
+
+#animation {
+    display: block;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    background-color: gray;
+    border: thick dashed darkslategray;
+    color: white;
+    padding: 1em;
+}
+
+#animation #date {
+    font-family: 'Jacquarda Bastarda 9', sans-serif;
+    font-weight: bold;
+    background-color: darkslategray;
+    padding: 0.5em;
+}
+
+#animation p {
+    font-family: 'Micro 5', sans-serif;
+}
+
+#animation #software {
+    font-family: 'Kode Mono', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: large;
+}
+
+#animation img {
+    width: 80%;
+    margin: auto;
+}
+
+#animation:hover {
+    border: thick dashed transparent;
+    background-color: transparent;
+    transition-duration: 1s;
+}
+
+#contact {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: space-around;
+    gap: 1em;
+}
+
+#contact article {
+    background-color: darkslategray;
+    width: 30%;
+    margin: auto;
+    padding: 1em;
+}
+
+#contact h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: gray;
+    text-transform: capitalize;
+}
+
+#contact a {
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     text-decoration: none;
-    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
 }
+
+/* Footer Styling */
 
 footer {
     text-align: center;
