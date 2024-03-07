@@ -95,6 +95,14 @@ p {
     gap: 5em;
 } 
 
+#hobbies p {
+    font-size: larger;
+}
+
+#hobbies ul {
+    font-size: large;
+}
+
 /* About Page Styling */
 
 #card {
@@ -192,6 +200,18 @@ p {
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
     font-weight: bold;
+}
+
+#hobby img {
+    width: 65%;
+    box-shadow: 0.25em 0.25em black;
+}
+
+#hobby dd {
+    font-size: x-large;
+    color: aliceblue;
+    font-family: 'Micro 5', serif;
+    text-transform: capitalize;
 }
 
 /* Blog Page Styling */
