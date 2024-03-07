@@ -67,6 +67,7 @@ p {
 .info {
     width: 60%;
     padding-left: 20%;
+    font-size: larger;
 }
 
 .info #begin {
@@ -92,7 +93,7 @@ p {
     justify-content: center;
     flex-wrap: wrap;
     gap: 5em;
-}
+} 
 
 /* About Page Styling */
 
