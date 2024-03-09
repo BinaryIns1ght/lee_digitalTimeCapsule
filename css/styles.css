@@ -80,6 +80,17 @@ p {
     color: black;
 }
 
+#frontImage{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+#frontImage img {
+    width: 70%;
+    margin: auto;
+}
+
 #starter {
     text-align: center;
     text-decoration: underline;
@@ -143,6 +154,7 @@ p {
 .bio {
     width: 60%;
     padding-left: 20%;
+    font-size: larger;
 }
 
 .bio #here {
@@ -246,6 +258,7 @@ p {
 
 #episode article p {
     font-family: 'Micro 5', sans-serif;
+    color: white;
     font-weight: 700;
     font-size: 1.2em;
 }
