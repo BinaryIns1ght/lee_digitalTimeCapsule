@@ -12,7 +12,7 @@ body {
 header {
     padding-top: 1em;
     text-align: center;
-    font-family: "Courier Prime",sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 header h1, header h2 {
@@ -32,6 +32,7 @@ header nav {
     height: 2em;
     width: 60%;
     margin-left: 20%;
+    padding: 0.25em;
 }
 
 header a {
@@ -64,30 +65,47 @@ p {
 
 /* Home/Index.html Styling */
 
-.info {
+#info {
     width: 60%;
     padding-left: 20%;
+    margin-bottom: 3%;
     font-size: larger;
 }
 
-.info #begin {
+#info #begin {
     font-size: 1.5em;
     font-weight: 900;
 }
 
-.info #begin em {
+#info #begin em {
     background-color: yellow;
     color: black;
 }
 
-#frontImage{
-    width: 30%;
+#info .body {
+    width: 90%;
     margin: auto;
-    text-align: center;
+    padding: 0.5em;
 }
 
-#frontImage img {
+#frontImage{
     width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: center;
+    column-gap: 1%;
+}
+
+#frontImage article {
+    width: 35%;
+    margin: auto;
+}
+
+#frontImage article img {
+    width: 80%;
     margin: auto;
 }
 
@@ -189,9 +207,55 @@ p {
     margin: auto;
 }
 
+#showcase, #aesthetic {
+    color: white;
+}
+
+#showcase {
+    padding: 0.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#aesthetic {
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    gap: 1%;
+}
+
+#aesthetic article {
+    width: 20%;
+    padding: 0.5em;
+    background-color: transparent;
+}
+
+#aesthetic article img {
+    width: 95%;
+    margin-left: 2.5%;
+    box-shadow: 0.2em 0.2em white;
+}
+
+#aesthetic article h5 {
+    font-family: 'Micro 5', sans-serif;
+    font-size: x-large;
+    padding: 0.5em;
+    text-transform: capitalize;
+}
+
+#aesthetic article:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0.2em 0.2em gray;
+}
+
 #hobby {
     width: 90%;
     margin: auto;
+    margin-bottom: 3%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -207,23 +271,20 @@ p {
     width: 40%;
 }
 
+#hobby article li {
+    color: ghostwhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 #hobby article a {
     color: ghostwhite;
-    font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
-    font-weight: bold;
+    font-size: medium;
 }
 
 #hobby img {
     width: 65%;
     box-shadow: 0.25em 0.25em black;
-}
-
-#hobby dd {
-    font-size: x-large;
-    color: aliceblue;
-    font-family: 'Micro 5', serif;
-    text-transform: capitalize;
 }
 
 /* Blog Page Styling */
@@ -241,8 +302,9 @@ p {
 }
 
 #episode article {
+    color: white;
     width: 20%;
-    background-color: gray;
+    background-color: darkslategray;
     text-align: center;
     padding: 0.75em;
     border: thick solid darkslateblue;
@@ -251,16 +313,14 @@ p {
 #episode article h2 {
     font-family: 'Jacquarda Bastarda 9', sans-serif;
     font-weight: 900;
-    width: 50%;
-    margin: auto;
-    padding: 1%;
+    font-size: xx-large;
 }
 
 #episode article p {
     font-family: 'Micro 5', sans-serif;
     color: white;
     font-weight: 700;
-    font-size: 1.2em;
+    font-size: x-large;
 }
 
 #episode article a {
@@ -278,7 +338,6 @@ p {
 #episode article .image {
     display: inline-block;
     width: 80%;
-    height: 35%;
 }
 
 #episode article:hover {
